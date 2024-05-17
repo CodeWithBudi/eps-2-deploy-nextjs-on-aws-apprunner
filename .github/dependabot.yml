@@ -6,6 +6,8 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    versioning-strategy: "lockfile-only"
+    target-branch: "main"
     directory: "/"
     schedule:
       interval: "monthly"
