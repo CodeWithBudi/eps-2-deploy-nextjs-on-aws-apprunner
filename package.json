@@ -2,6 +2,10 @@
   "name": "eps-2-deploy-nextjs-on-aws-apprunner",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
+  "engineStrict": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
